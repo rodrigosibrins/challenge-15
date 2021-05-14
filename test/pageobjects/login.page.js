@@ -10,11 +10,6 @@ class LoginPage {
         this.inputPassword.setValue(password);
         this.btnLogin.click();
     }
-    cleanLogin (){
-        this.btnError.click();
-        this.inputName.setValue();
-        this.inputPassword.setValue();
-    }
     open () {
         return browser.url('https://www.saucedemo.com');
     }
