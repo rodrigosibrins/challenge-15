@@ -83,7 +83,8 @@ describe("Login automation", () =>{
             browser.pause(1000);
         });
         it("if login with problem_user show the correct product image", () => {
-            expect($('//*[@id="item_4_img_link"]/img')).toHaveAttrContaining('alt', 'Sauce Labs Backpack');
+            const getSrc = $('//*[@id="item_4_img_link"]/img').getAttribute('src');
+            expect(getSrc).toBe('https://www.saucedemo.com/static/media/sl-404.168b1cce.jpg')
         });
     });
     describe("Login with performance_glitch_user and valid password", () => {
