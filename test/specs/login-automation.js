@@ -67,10 +67,33 @@ describe("Login automation", () =>{
             browser.back();
             browser.refresh();
         });
-        it("if username and password inputs are wrong display proper mssg", () => {
+        it("if login with locked_out_user display proper mssg", () => {
             LoginPage.login('locked_out_user', 'secret_sauce');
             expect(LoginPage.divError).toHaveText('Epic sadface: Sorry, this user has been locked out.');
             browser.pause(1000);
         });
+    });
+    describe("Login with problem_user and valid password", () => {
+        beforeAll("Refresh browser", () => {
+            browser.refresh();
+        });
+        it("if login with problem_user navigate to main page", () => {
+            LoginPage.login('problem_user', 'secret_sauce');
+            expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
+            browser.pause(1000);
+        });
+        it("if login with problem_user show the correct product image", () => {
+            expect($('//*[@id="item_4_img_link"]/img')).toHaveAttrContaining('alt', 'Sauce Labs Backpack');
+        });
+    });
+    describe("Login with performance_glitch_user and valid password", () => {
+        beforeAll("Refresh browser", () => {
+            browser.back();
+            browser.refresh();
+        });
+        it("should navigates to main page", () => {
+            LoginPage.login('performance_glitch_user', 'secret_sauce');
+            expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
+        }); 
     });
 });
