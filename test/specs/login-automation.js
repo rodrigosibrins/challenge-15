@@ -94,6 +94,9 @@ describe("Login automation", () =>{
         });
         it("should navigates to main page", () => {
             LoginPage.login('performance_glitch_user', 'secret_sauce');
+            browser.setTimeout({
+                'pageLoad': 5000,
+            });
             expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
         }); 
     });

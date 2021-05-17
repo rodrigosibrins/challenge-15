@@ -9,29 +9,31 @@ class ProductsPage {
     get cartBadge () { return $('.shopping_cart_badge') }
     get productSort () { return $('.product_sort_container') }
     get itemImg () { return $('.inventory_item_img') }
-    get firstproductTitle () { return $('//*[@id="item_4_title_link"]/div') }
-    get firstproductDesc () { return $('//*[@id="inventory_container"]/div/div[1]/div[2]/div[1]/div') }
-    get firstproductPrice () { return $('//*[@id="inventory_container"]/div/div[1]/div[2]/div[2]/div')}
-    get backpackAddBtn () { return $('//*[@id="add-to-cart-sauce-labs-backpack"]')}
+    get firstproductTitle () { return $('.inventory_item_label').$$('.inventory_item_name') }
+    get productImg () { return $('.inventory_item_img')}
+    get productDesc () { return $('.inventory_details_desc')}
+    get productPrice () { return $('.inventory_details_price')}
+    get backBtn () { return $('#back-to-products')}
+    get backpackAddBtn () { return $('#add-to-cart-sauce-labs-backpack')}
+    get backpackRemoveBtn () { return $('#remove-sauce-labs-backpack')}
     get twitterLink () { return $('.social_twitter a')}
     get facebookLink () { return $('.social_facebook a')}
     get linkedinLink () { return $('.social_linkedin a')}
     get footerCopy () { return $('.footer_copy')}
-
     menuOptions (link) {
         this.burgerMenu.click();
-        this.click(link);
+        link.click();
     }
     sortValue (value) {
-        this.productSort.setValue(value);
-    }
-    socialClick (social) {
-        this.click(social);
+        this.productSort.click();
+        this.productSort.$$('option')[`${value}`].click();
     }
     addToCart (){
         this.backpackAddBtn.click();
     }
-
+    socialClick (social) {
+        social.click();
+    }   
 }
 
 module.exports = new ProductsPage();
