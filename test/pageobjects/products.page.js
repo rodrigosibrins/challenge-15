@@ -20,6 +20,7 @@ class ProductsPage {
     get facebookLink () { return $('.social_facebook a')}
     get linkedinLink () { return $('.social_linkedin a')}
     get footerCopy () { return $('.footer_copy')}
+    
     menuOptions (link) {
         this.burgerMenu.click();
         link.click();
