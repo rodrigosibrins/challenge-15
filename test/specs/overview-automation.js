@@ -3,7 +3,6 @@ const ProductsPage = require("../pageobjects/products.page");
 const CartPage = require("../pageobjects/cart.page");
 const CheckPage = require("../pageobjects/checkout.page");
 const OverviewPage = require("../pageobjects/overview.page");
-const overviewPage = require("../pageobjects/overview.page");
 
 describe("Overview automation", () =>{
     beforeAll("Login with standard_user, add product to cart & checkout", () => {
@@ -31,7 +30,7 @@ describe("Overview automation", () =>{
             OverviewPage.cancelBtn.click();
             expect(browser).toHaveUrl('https://www.saucedemo.com/inventory.html');
         });
-        it("finish btn navigates to", () => {
+        it("finish btn navigates to order confirm page", () => {
             ProductsPage.cartLink.click();
             CartPage.checkoutBtn.click();
             CheckPage.fillForm('user', 'surname', '2000');
