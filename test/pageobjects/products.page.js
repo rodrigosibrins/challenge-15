@@ -8,7 +8,6 @@ class ProductsPage {
     get cartLink () { return $('.shopping_cart_link') }
     get cartBadge () { return $('.shopping_cart_badge') }
     get productSort () { return $('.product_sort_container') }
-    get itemImg () { return $('.inventory_item_img') }
     get firstproductTitle () { return $('.inventory_item_label').$$('.inventory_item_name') }
     get productImg () { return $('.inventory_item_img')}
     get productDesc () { return $('.inventory_details_desc')}
@@ -16,6 +15,8 @@ class ProductsPage {
     get backBtn () { return $('#back-to-products')}
     get backpackAddBtn () { return $('#add-to-cart-sauce-labs-backpack')}
     get backpackRemoveBtn () { return $('#remove-sauce-labs-backpack')}
+    get bikelightAddBtn () { return $('#add-to-cart-sauce-labs-bike-light')}
+    get bikelightRemoveBtn () { return $('#remove-sauce-labs-bike-light')}
     get twitterLink () { return $('.social_twitter a')}
     get facebookLink () { return $('.social_facebook a')}
     get linkedinLink () { return $('.social_linkedin a')}
