@@ -20,7 +20,17 @@
 4. Checkout page.
 5. Order overview page.
 6. Complete order page.
-7. Place order (end to end test).  
+7. Place order (end to end test).
+
+**Allure Report:**
+
+- To run report write on console: allure open
+- To exit report server press ctrl+c
+
+**Extra content:**
+
+- Bug report.
+- Test cases.
 
 ## Developer
 
