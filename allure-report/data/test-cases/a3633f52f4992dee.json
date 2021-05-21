@@ -1,0 +1,58 @@
+{
+  "uid" : "a3633f52f4992dee",
+  "name" : "if username is wrong display proper mssg",
+  "fullName" : "Login automation: Login with invalid username and valid password.if username is wrong display proper mssg",
+  "historyId" : "550753d259b61451ed26bdff49cb8f64",
+  "time" : {
+    "start" : 1621610278777,
+    "stop" : 1621610288817,
+    "duration" : 10040
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Error: Can't call setValue on element with selector \"#user-name\" because element wasn't found",
+  "statusTrace" : "Error: Can't call setValue on element with selector \"#user-name\" because element wasn't found\n                    at LoginPage.login (C:\\Users\\Rodrigo\\challenge-15\\test\\pageobjects\\login.page.js:9:24)\n                    at UserContext.<anonymous> (C:\\Users\\Rodrigo\\challenge-15\\test\\specs\\login-automation.js:14:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "if username is wrong display proper mssg"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a3633f52f4992dee.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

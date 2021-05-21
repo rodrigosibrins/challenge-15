@@ -1,0 +1,66 @@
+{
+  "uid" : "f284b4928cb8d5d5",
+  "name" : "if username and password inputs are wrong display proper mssg",
+  "fullName" : "Login automation: Login with standard_user and valid password.if username and password inputs are wrong display proper mssg",
+  "historyId" : "28ce54d0fe78f5124988f0090830b255",
+  "time" : {
+    "start" : 1621610390666,
+    "stop" : 1621610392582,
+    "duration" : 1916
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "if username and password inputs are wrong display proper mssg"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "fdb66d01d364093c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621610301394,
+        "stop" : 1621610303272,
+        "duration" : 1878
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f284b4928cb8d5d5.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

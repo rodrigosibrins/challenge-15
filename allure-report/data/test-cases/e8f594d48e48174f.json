@@ -1,0 +1,58 @@
+{
+  "uid" : "e8f594d48e48174f",
+  "name" : "\"before all\" hook",
+  "fullName" : "Overview automation.\"before all\" hook",
+  "historyId" : "81bce29a2d007c5044d41eef9c4426ad",
+  "time" : {
+    "start" : 1621610512273,
+    "stop" : 1621610519738,
+    "duration" : 7465
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Overview automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Overview automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Overview automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8f594d48e48174f.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

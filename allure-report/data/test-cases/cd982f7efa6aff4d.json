@@ -1,0 +1,66 @@
+{
+  "uid" : "cd982f7efa6aff4d",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation: Login with standard_user and valid password.\"before all\" hook",
+  "historyId" : "c641301332427674667fee17ee923ff0",
+  "time" : {
+    "start" : 1621610390589,
+    "stop" : 1621610390665,
+    "duration" : 76
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with standard_user and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c3aad4982b7727e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621610301310,
+        "stop" : 1621610301392,
+        "duration" : 82
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd982f7efa6aff4d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "1d7d08896c907b15",
+  "name" : "Linkedin icon href is correct",
+  "fullName" : "Products automation: Footer tests.Linkedin icon href is correct",
+  "historyId" : "42c6fb347edf6ccf41861167770fddf4",
+  "time" : {
+    "start" : 1621610473184,
+    "stop" : 1621610473477,
+    "duration" : 293
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Linkedin icon href is correct"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "1d7d08896c907b15.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

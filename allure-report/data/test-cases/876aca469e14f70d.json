@@ -1,0 +1,58 @@
+{
+  "uid" : "876aca469e14f70d",
+  "name" : "if add to cart btn is clicked cart badge should be displayed",
+  "fullName" : "Products automation: Cart badge tests.if add to cart btn is clicked cart badge should be displayed",
+  "historyId" : "9356e68b2e3f425a6394452387f482c6",
+  "time" : {
+    "start" : 1621610436526,
+    "stop" : 1621610438726,
+    "duration" : 2200
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "if add to cart btn is clicked cart badge should be displayed"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "876aca469e14f70d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

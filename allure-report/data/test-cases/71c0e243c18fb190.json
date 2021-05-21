@@ -1,0 +1,58 @@
+{
+  "uid" : "71c0e243c18fb190",
+  "name" : "\"before all\" hook",
+  "fullName" : "Products automation.\"before all\" hook",
+  "historyId" : "c8ee3bc571037d845360b55b7299b454",
+  "time" : {
+    "start" : 1621610405528,
+    "stop" : 1621610408208,
+    "duration" : 2680
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Products automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "71c0e243c18fb190.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

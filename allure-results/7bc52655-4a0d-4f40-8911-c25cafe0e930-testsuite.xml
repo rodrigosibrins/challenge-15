@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610480591' stop='1621610482801'>
+    <name>Cart automation: Cart empty</name>
+    <title>Cart automation: Cart empty</title>
+    <test-cases>
+        <test-case start='1621610480592' status='passed' stop='1621610482799'>
+            <name>if cart is empty div cart-item is not displayed </name>
+            <title>if cart is empty div cart-item is not displayed </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-2'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,67 @@
+{
+  "uid" : "a6becda8c80e526f",
+  "name" : "Logout link navigates to login page",
+  "fullName" : "Products automation: Hamburger menu tests.Logout link navigates to login page",
+  "historyId" : "bb1b726e7290a0c5319d4e126e9af2d9",
+  "time" : {
+    "start" : 1621610428583,
+    "stop" : 1621610431476,
+    "duration" : 2893
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Logout link navigates to login page"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "50787346435d305c",
+      "status" : "failed",
+      "statusDetails" : "element not interactable: element not interactable\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621610334220,
+        "stop" : 1621610335326,
+        "duration" : 1106
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6becda8c80e526f.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

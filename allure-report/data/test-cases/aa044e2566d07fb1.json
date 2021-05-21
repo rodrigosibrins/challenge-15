@@ -1,0 +1,67 @@
+{
+  "uid" : "aa044e2566d07fb1",
+  "name" : "if username is wrong display proper mssg",
+  "fullName" : "Login automation: Login with invalid username and valid password.if username is wrong display proper mssg",
+  "historyId" : "550753d259b61451ed26bdff49cb8f64",
+  "time" : {
+    "start" : 1621610376379,
+    "stop" : 1621610380014,
+    "duration" : 3635
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "if username is wrong display proper mssg"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with invalid username and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "a3633f52f4992dee",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#user-name\" because element wasn't found",
+      "time" : {
+        "start" : 1621610278777,
+        "stop" : 1621610288817,
+        "duration" : 10040
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa044e2566d07fb1.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

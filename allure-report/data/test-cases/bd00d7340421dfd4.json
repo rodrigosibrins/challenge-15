@@ -1,0 +1,67 @@
+{
+  "uid" : "bd00d7340421dfd4",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation.\"before all\" hook",
+  "historyId" : "6a4fd5a69fe9c248a1e3e508921729fc",
+  "time" : {
+    "start" : 1621610370969,
+    "stop" : 1621610373714,
+    "duration" : 2745
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "833c01aadf61ba67",
+      "status" : "failed",
+      "statusDetails" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "time" : {
+        "start" : 1621610264895,
+        "stop" : 1621610268670,
+        "duration" : 3775
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "bd00d7340421dfd4.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

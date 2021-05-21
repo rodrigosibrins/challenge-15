@@ -1,0 +1,58 @@
+{
+  "uid" : "109e563ca6bc09d4",
+  "name" : "Facebook icon navigates correctly to facebook page",
+  "fullName" : "Products automation: Footer tests.Facebook icon navigates correctly to facebook page",
+  "historyId" : "79319efe0d852226abde52a1170795ff",
+  "time" : {
+    "start" : 1621610466125,
+    "stop" : 1621610473183,
+    "duration" : 7058
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Facebook icon navigates correctly to facebook page"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "109e563ca6bc09d4.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

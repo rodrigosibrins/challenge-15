@@ -1,0 +1,56 @@
+{
+  "uid" : "2778a5d841d843c9",
+  "name" : "should navigates to main page",
+  "fullName" : "Login automation: Login with performance_glitch_user and valid password.should navigates to main page",
+  "historyId" : "dd815195e0da5dac6eaf66cb91d873c",
+  "time" : {
+    "start" : 1621610306929,
+    "stop" : 1621610312729,
+    "duration" : 5800
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with performance_glitch_user and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with performance_glitch_user and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "should navigates to main page"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with performance_glitch_user and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "2778a5d841d843c9.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

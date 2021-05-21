@@ -1,0 +1,60 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610264047' stop='1621610312736'>
+    <name>Login automation</name>
+    <title>Login automation</title>
+    <test-cases>
+        <test-case start='1621610264895' status='failed' stop='1621610268670'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=90.0.4430.212)
+                    at Object.getErrorFromResponseBody (C:\Users\Rodrigo\challenge-15\node_modules\webdriver\build\utils.js:189:12)
+                    at WebDriverRequest._request (C:\Users\Rodrigo\challenge-15\node_modules\webdriver\build\request.js:168:31)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at async Browser.runCommandWithHooks (C:\Users\Rodrigo\challenge-15\node_modules\@wdio\sync\build\wrapCommand.js:105:25)
+                    at Browser.runCommandWithHooks (C:\Users\Rodrigo\challenge-15\node_modules\@wdio\sync\build\wrapCommand.js:100:24)
+                    at Browser.wrapCommandFn (C:\Users\Rodrigo\challenge-15\node_modules\@wdio\sync\build\wrapCommand.js:67:44)
+                    at LoginPage.open (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:14:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\login-automation.js:5:19)
+                    at UserContext.executeSync (C:\Users\Rodrigo\challenge-15\node_modules\@wdio\sync\build\index.js:38:22)
+                    at C:\Users\Rodrigo\challenge-15\node_modules\@wdio\sync\build\index.js:69:68</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621610312735' status='failed' stop='1621610312736'>
+            <name>&lt;unknown test></name>
+            <title>&lt;unknown test></title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>unknown error: unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>unknown error: net::ERR_NAME_NOT_RESOLVED
+                  (Session info: chrome=90.0.4430.212)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at LoginPage.open (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:14:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\login-automation.js:5:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

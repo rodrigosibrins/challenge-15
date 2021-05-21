@@ -1,0 +1,67 @@
+{
+  "uid" : "e9184147f6494dc6",
+  "name" : "Reset App State link reset cart",
+  "fullName" : "Products automation: Hamburger menu tests.Reset App State link reset cart",
+  "historyId" : "e44d524ba3fe036f905b0d78c0658742",
+  "time" : {
+    "start" : 1621610431476,
+    "stop" : 1621610436514,
+    "duration" : 5038
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Reset App State link reset cart"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "e5df02fe86e96f00",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#user-name\" because element wasn't found",
+      "time" : {
+        "start" : 1621610335328,
+        "stop" : 1621610345385,
+        "duration" : 10057
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e9184147f6494dc6.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

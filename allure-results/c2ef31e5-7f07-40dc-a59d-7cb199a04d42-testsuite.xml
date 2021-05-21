@@ -1,0 +1,21 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610535918' stop='1621610538174'>
+    <name>Order complete automation: Order complete page btn</name>
+    <title>Order complete automation: Order complete page btn</title>
+    <test-cases>
+        <test-case start='1621610535918' status='passed' stop='1621610538174'>
+            <name>back home btn navigates to products page</name>
+            <title>back home btn navigates to products page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-5'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

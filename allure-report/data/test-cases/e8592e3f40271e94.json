@@ -1,0 +1,66 @@
+{
+  "uid" : "e8592e3f40271e94",
+  "name" : "\"before all\" hook",
+  "fullName" : "Order complete automation.\"before all\" hook",
+  "historyId" : "e21eb0258607a0dc2d88fed020a352ac",
+  "time" : {
+    "start" : 1621610541823,
+    "stop" : 1621610543597,
+    "duration" : 1774
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-6"
+  }, {
+    "name" : "suite",
+    "value" : "Order complete automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Order complete automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Order complete automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "17e9eaf4f2845255",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621610529278,
+        "stop" : 1621610535729,
+        "duration" : 6451
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e8592e3f40271e94.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

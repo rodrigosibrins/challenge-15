@@ -1,0 +1,58 @@
+{
+  "uid" : "fb0ed3f2ef11c9ad",
+  "name" : "if sort value is A to Z display proper layout ",
+  "fullName" : "Products automation: Sort products tests.if sort value is A to Z display proper layout ",
+  "historyId" : "b93827e5ab7190976df044a5a8cb0398",
+  "time" : {
+    "start" : 1621610452255,
+    "stop" : 1621610454530,
+    "duration" : 2275
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "if sort value is A to Z display proper layout "
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fb0ed3f2ef11c9ad.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "e1d98c58948127a",
+  "name" : "the delivery img is display",
+  "fullName" : "Order complete automation: Order complete page display correct info.the delivery img is display",
+  "historyId" : "e36611aedb5f565badb71d709105ab45",
+  "time" : {
+    "start" : 1621610535823,
+    "stop" : 1621610535900,
+    "duration" : 77
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Order complete automation: Order complete page display correct info"
+  }, {
+    "name" : "testClass",
+    "value" : "Order complete automation: Order complete page display correct info"
+  }, {
+    "name" : "testMethod",
+    "value" : "the delivery img is display"
+  }, {
+    "name" : "package",
+    "value" : "Order complete automation: Order complete page display correct info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1d98c58948127a.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "7a962b936a02427b",
+  "name" : "checkout",
+  "fullName" : "Cart automation: Cart btns functionality.checkout",
+  "historyId" : "913c87455997dd557ccbaadd172d9c6a",
+  "time" : {
+    "start" : 1621610485897,
+    "stop" : 1621610486072,
+    "duration" : 175
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "checkout"
+  }, {
+    "name" : "package",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "7a962b936a02427b.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

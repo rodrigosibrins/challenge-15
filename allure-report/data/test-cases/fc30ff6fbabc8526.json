@@ -1,0 +1,58 @@
+{
+  "uid" : "fc30ff6fbabc8526",
+  "name" : "Adding more than 1 product, cart badge display correct number",
+  "fullName" : "Products automation: Cart badge tests.Adding more than 1 product, cart badge display correct number",
+  "historyId" : "f1de8d51a1c2224e46cc8841579a97f8",
+  "time" : {
+    "start" : 1621610438741,
+    "stop" : 1621610440922,
+    "duration" : 2181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Adding more than 1 product, cart badge display correct number"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Cart badge tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fc30ff6fbabc8526.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

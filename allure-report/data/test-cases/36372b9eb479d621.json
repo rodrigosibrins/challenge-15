@@ -1,0 +1,58 @@
+{
+  "uid" : "36372b9eb479d621",
+  "name" : "back home btn navigates to products page",
+  "fullName" : "Order complete automation: Order complete page btn.back home btn navigates to products page",
+  "historyId" : "9b6d934f62de2755f5bf9501a0d5bf61",
+  "time" : {
+    "start" : 1621610535918,
+    "stop" : 1621610538174,
+    "duration" : 2256
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-5"
+  }, {
+    "name" : "suite",
+    "value" : "Order complete automation: Order complete page btn"
+  }, {
+    "name" : "testClass",
+    "value" : "Order complete automation: Order complete page btn"
+  }, {
+    "name" : "testMethod",
+    "value" : "back home btn navigates to products page"
+  }, {
+    "name" : "package",
+    "value" : "Order complete automation: Order complete page btn"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "36372b9eb479d621.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "5bf5be08433e2a11",
+  "name" : "click on product should navigates to item description",
+  "fullName" : "Products automation: Products description page.click on product should navigates to item description",
+  "historyId" : "2e35249cab5bed728d7247e5b16e9149",
+  "time" : {
+    "start" : 1621610454544,
+    "stop" : 1621610456654,
+    "duration" : 2110
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Products description page"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Products description page"
+  }, {
+    "name" : "testMethod",
+    "value" : "click on product should navigates to item description"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Products description page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "5bf5be08433e2a11.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

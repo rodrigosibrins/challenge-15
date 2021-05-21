@@ -1,0 +1,35 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610520153' stop='1621610525683'>
+    <name>Overview automation: Overview page btns</name>
+    <title>Overview automation: Overview page btns</title>
+    <test-cases>
+        <test-case start='1621610520153' status='passed' stop='1621610520588'>
+            <name>cancel btn navigates to products page</name>
+            <title>cancel btn navigates to products page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621610520589' status='passed' stop='1621610525675'>
+            <name>finish btn navigates to order confirm page</name>
+            <title>finish btn navigates to order confirm page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-4'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,58 @@
+{
+  "uid" : "cfb58da65399b2b7",
+  "name" : "cart div item is displayed",
+  "fullName" : "Cart automation: Cart fill display product information.cart div item is displayed",
+  "historyId" : "2cf1c51e3a63bbffbb9aec4c3c6ca340",
+  "time" : {
+    "start" : 1621610482815,
+    "stop" : 1621610485475,
+    "duration" : 2660
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Cart automation: Cart fill display product information"
+  }, {
+    "name" : "testClass",
+    "value" : "Cart automation: Cart fill display product information"
+  }, {
+    "name" : "testMethod",
+    "value" : "cart div item is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Cart automation: Cart fill display product information"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cfb58da65399b2b7.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

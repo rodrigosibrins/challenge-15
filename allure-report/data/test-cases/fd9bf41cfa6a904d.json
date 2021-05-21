@@ -1,0 +1,58 @@
+{
+  "uid" : "fd9bf41cfa6a904d",
+  "name" : "if first name field is empty show proper mssg ",
+  "fullName" : "Checkout automation: Checkout form tests.if first name field is empty show proper mssg ",
+  "historyId" : "1c67dd38e2ed19db513d964e37f84cf1",
+  "time" : {
+    "start" : 1621610497395,
+    "stop" : 1621610499959,
+    "duration" : 2564
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout automation: Checkout form tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkout automation: Checkout form tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "if first name field is empty show proper mssg "
+  }, {
+    "name" : "package",
+    "value" : "Checkout automation: Checkout form tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "fd9bf41cfa6a904d.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

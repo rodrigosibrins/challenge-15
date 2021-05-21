@@ -1,0 +1,58 @@
+{
+  "uid" : "b70c668383b167d2",
+  "name" : "Footer copyright is correct",
+  "fullName" : "Products automation: Footer tests.Footer copyright is correct",
+  "historyId" : "4bde199ea47b230f3799986da7437fd8",
+  "time" : {
+    "start" : 1621610473484,
+    "stop" : 1621610473571,
+    "duration" : 87
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Footer copyright is correct"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b70c668383b167d2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

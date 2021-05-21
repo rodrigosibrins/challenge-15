@@ -1,0 +1,58 @@
+{
+  "uid" : "157ee06dea7c6761",
+  "name" : "if sort value is high to low display proper layout ",
+  "fullName" : "Products automation: Sort products tests.if sort value is high to low display proper layout ",
+  "historyId" : "9a56e37158858bb5ec03e756c5a998b7",
+  "time" : {
+    "start" : 1621610449987,
+    "stop" : 1621610452254,
+    "duration" : 2267
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "if sort value is high to low display proper layout "
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Sort products tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "157ee06dea7c6761.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

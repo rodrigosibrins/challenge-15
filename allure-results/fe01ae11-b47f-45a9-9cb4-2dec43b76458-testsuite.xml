@@ -1,0 +1,47 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610268673' stop='1621610288834'>
+    <name>Login automation: Login with invalid username and valid password</name>
+    <title>Login automation: Login with invalid username and valid password</title>
+    <test-cases>
+        <test-case start='1621610268674' status='failed' stop='1621610278771'>
+            <name>if username is empty display proper mssg</name>
+            <title>if username is empty display proper mssg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "#user-name" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#user-name" because element wasn't found
+                    at LoginPage.login (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:9:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\login-automation.js:9:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621610278777' status='failed' stop='1621610288817'>
+            <name>if username is wrong display proper mssg</name>
+            <title>if username is wrong display proper mssg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "#user-name" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#user-name" because element wasn't found
+                    at LoginPage.login (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:9:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\login-automation.js:14:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

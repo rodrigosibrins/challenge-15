@@ -1,0 +1,58 @@
+{
+  "uid" : "a9b2c03e28eb1019",
+  "name" : "Twitter icon navigates correctly to twitter page",
+  "fullName" : "Products automation: Footer tests.Twitter icon navigates correctly to twitter page",
+  "historyId" : "d57b013fefe2333775f60d889559cf8c",
+  "time" : {
+    "start" : 1621610463371,
+    "stop" : 1621610466125,
+    "duration" : 2754
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "Twitter icon navigates correctly to twitter page"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Footer tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a9b2c03e28eb1019.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

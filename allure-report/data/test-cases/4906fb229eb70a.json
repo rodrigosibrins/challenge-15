@@ -1,0 +1,58 @@
+{
+  "uid" : "4906fb229eb70a",
+  "name" : "\"before all\" hook",
+  "fullName" : "Checkout automation.\"before all\" hook",
+  "historyId" : "eda21c49ce22f0fea4212af33ae16394",
+  "time" : {
+    "start" : 1621610489760,
+    "stop" : 1621610494767,
+    "duration" : 5007
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkout automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Checkout automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "4906fb229eb70a.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

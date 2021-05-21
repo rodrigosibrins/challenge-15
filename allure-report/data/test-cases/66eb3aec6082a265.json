@@ -1,0 +1,58 @@
+{
+  "uid" : "66eb3aec6082a265",
+  "name" : "continue btn navigates to overview page",
+  "fullName" : "Checkout automation: Checkout page btns tests.continue btn navigates to overview page",
+  "historyId" : "6e9d9248b598d7e11c9d65e16c7460e0",
+  "time" : {
+    "start" : 1621610505917,
+    "stop" : 1621610508621,
+    "duration" : 2704
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "continue btn navigates to overview page"
+  }, {
+    "name" : "package",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "66eb3aec6082a265.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,58 @@
+{
+  "uid" : "18fed0f959f4dc60",
+  "name" : "if cart icon is clicked navigates to cart page",
+  "fullName" : "Products automation: Cart link test.if cart icon is clicked navigates to cart page",
+  "historyId" : "68c8aa5f7b0414c2eb119906af4f2ce3",
+  "time" : {
+    "start" : 1621610443142,
+    "stop" : 1621610445247,
+    "duration" : 2105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Cart link test"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Cart link test"
+  }, {
+    "name" : "testMethod",
+    "value" : "if cart icon is clicked navigates to cart page"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Cart link test"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "18fed0f959f4dc60.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "3641925825410aba",
+  "name" : "if password is empty display proper mssg",
+  "fullName" : "Login automation: Login with valid username and invalid password.if password is empty display proper mssg",
+  "historyId" : "2a96d07d256566d51db1ca76c4ae9b9f",
+  "time" : {
+    "start" : 1621610290552,
+    "stop" : 1621610293303,
+    "duration" : 2751
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "if password is empty display proper mssg"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3641925825410aba.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

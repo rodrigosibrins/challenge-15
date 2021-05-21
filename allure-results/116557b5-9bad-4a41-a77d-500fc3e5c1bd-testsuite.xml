@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610288847' stop='1621610295868'>
+    <name>Login automation: Login with valid username and invalid password</name>
+    <title>Login automation: Login with valid username and invalid password</title>
+    <test-cases>
+        <test-case start='1621610288848' status='failed' stop='1621610290550'>
+            <name>"before all" hook</name>
+            <title>"before all" hook</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "#user-name" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#user-name" because element wasn't found
+                    at LoginPage.login (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:9:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\login-automation.js:14:19)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621610290552' status='passed' stop='1621610293303'>
+            <name>if password is empty display proper mssg</name>
+            <title>if password is empty display proper mssg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621610293304' status='passed' stop='1621610295867'>
+            <name>if password is wrong display proper mssg</name>
+            <title>if password is wrong display proper mssg</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

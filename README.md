@@ -1,5 +1,6 @@
 # Challenge 15
 **Project Description:**
+
 - Automated tests for the web page: 'https://www.saucedemo.com/'.
 - Technology: Webdriver.
 - Browser to run the tests: Chrome.

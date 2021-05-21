@@ -1,0 +1,78 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621610319923' stop='1621610345387'>
+    <name>Products automation: Hamburger menu tests</name>
+    <title>Products automation: Hamburger menu tests</title>
+    <test-cases>
+        <test-case start='1621610319925' status='passed' stop='1621610324479'>
+            <name>All items link navigates to inventory page</name>
+            <title>All items link navigates to inventory page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621610324480' status='passed' stop='1621610334219'>
+            <name>About link navigates to saucelabs.com</name>
+            <title>About link navigates to saucelabs.com</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621610334220' status='failed' stop='1621610335326'>
+            <name>Logout link navigates to login page</name>
+            <title>Logout link navigates to login page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>element not interactable: element not interactable
+                  (Session info: chrome=90.0.4430.212)</message>
+                <stack-trace>element not interactable
+                  (Session info: chrome=90.0.4430.212)
+                    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+                    at ProductsPage.menuOptions (C:\Users\Rodrigo\challenge-15\test\pageobjects\products.page.js:27:14)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\products-automation.js:24:22)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621610335328' status='failed' stop='1621610345385'>
+            <name>Reset App State link reset cart</name>
+            <title>Reset App State link reset cart</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Error: Can't call setValue on element with selector "#user-name" because element wasn't found</message>
+                <stack-trace>Error: Can't call setValue on element with selector "#user-name" because element wasn't found
+                    at LoginPage.login (C:\Users\Rodrigo\challenge-15\test\pageobjects\login.page.js:9:24)
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\products-automation.js:29:19)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

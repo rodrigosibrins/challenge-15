@@ -1,0 +1,56 @@
+{
+  "uid" : "511a990621df4a2",
+  "name" : "About link navigates to saucelabs.com",
+  "fullName" : "Products automation: Hamburger menu tests.About link navigates to saucelabs.com",
+  "historyId" : "7e68733df1450cfcde18c2ca63980880",
+  "time" : {
+    "start" : 1621610324480,
+    "stop" : 1621610334219,
+    "duration" : 9739
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "About link navigates to saucelabs.com"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "511a990621df4a2.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

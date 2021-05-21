@@ -1,0 +1,64 @@
+{
+  "uid" : "c44dfcf4c974b893",
+  "name" : "<unknown test>",
+  "fullName" : "Login automation.<unknown test>",
+  "historyId" : "36896f964b0933c6f7f78f5fbd20c711",
+  "time" : {
+    "start" : 1621610312735,
+    "stop" : 1621610312736,
+    "duration" : 1
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "unknown error: unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+  "statusTrace" : "unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)\n                    at processTicksAndRejections (internal/process/task_queues.js:93:5)\n                    at LoginPage.open (C:\\Users\\Rodrigo\\challenge-15\\test\\pageobjects\\login.page.js:14:24)\n                    at UserContext.<anonymous> (C:\\Users\\Rodrigo\\challenge-15\\test\\specs\\login-automation.js:5:19)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "<unknown test>"
+  }, {
+    "name" : "package",
+    "value" : "Login automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "c44dfcf4c974b893.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

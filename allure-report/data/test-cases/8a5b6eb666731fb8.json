@@ -1,0 +1,58 @@
+{
+  "uid" : "8a5b6eb666731fb8",
+  "name" : "finish btn navigates to order confirm page",
+  "fullName" : "Overview automation: Overview page btns.finish btn navigates to order confirm page",
+  "historyId" : "880a4b453b68e7fda3397ade2d215060",
+  "time" : {
+    "start" : 1621610520589,
+    "stop" : 1621610525675,
+    "duration" : 5086
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Overview automation: Overview page btns"
+  }, {
+    "name" : "testClass",
+    "value" : "Overview automation: Overview page btns"
+  }, {
+    "name" : "testMethod",
+    "value" : "finish btn navigates to order confirm page"
+  }, {
+    "name" : "package",
+    "value" : "Overview automation: Overview page btns"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "8a5b6eb666731fb8.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

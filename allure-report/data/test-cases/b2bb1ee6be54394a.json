@@ -1,0 +1,58 @@
+{
+  "uid" : "b2bb1ee6be54394a",
+  "name" : "\"before all\" hook",
+  "fullName" : "Cart automation.\"before all\" hook",
+  "historyId" : "8dff11a82c10171d89125d4ac15e5067",
+  "time" : {
+    "start" : 1621610478110,
+    "stop" : 1621610480591,
+    "duration" : 2481
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Cart automation"
+  }, {
+    "name" : "testClass",
+    "value" : "Cart automation"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Cart automation"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b2bb1ee6be54394a.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

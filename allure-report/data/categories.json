@@ -1,0 +1,26 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "name" : "categories",
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "unknown error: unknown error: net::ERR_NAME_NOT_RESOLVED\n                  (Session info: chrome=90.0.4430.212)",
+      "children" : [ {
+        "name" : "<unknown test>",
+        "uid" : "c44dfcf4c974b893",
+        "parentUid" : "3bc75268dfc2555496a3d263171d08c4",
+        "status" : "failed",
+        "time" : {
+          "start" : 1621610312735,
+          "stop" : 1621610312736,
+          "duration" : 1
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-90.0.4430.212" ]
+      } ],
+      "uid" : "3bc75268dfc2555496a3d263171d08c4"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ]
+}

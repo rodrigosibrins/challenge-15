@@ -1,0 +1,67 @@
+{
+  "uid" : "14673f3ba4f0c98a",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation: Login with valid username and invalid password.\"before all\" hook",
+  "historyId" : "1679ad8b230ad7b37fb3df9f455832f6",
+  "time" : {
+    "start" : 1621610380042,
+    "stop" : 1621610380146,
+    "duration" : 104
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with valid username and invalid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "4f46f5f88dfc21e0",
+      "status" : "failed",
+      "statusDetails" : "Error: Can't call setValue on element with selector \"#user-name\" because element wasn't found",
+      "time" : {
+        "start" : 1621610288848,
+        "stop" : 1621610290550,
+        "duration" : 1702
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "14673f3ba4f0c98a.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

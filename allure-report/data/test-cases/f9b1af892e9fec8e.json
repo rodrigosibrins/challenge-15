@@ -1,0 +1,58 @@
+{
+  "uid" : "f9b1af892e9fec8e",
+  "name" : "cancel btn navigates to cart page",
+  "fullName" : "Checkout automation: Checkout page btns tests.cancel btn navigates to cart page",
+  "historyId" : "253d457eeabbf0b498fa5175b6c04531",
+  "time" : {
+    "start" : 1621610505790,
+    "stop" : 1621610505906,
+    "duration" : 116
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "cancel btn navigates to cart page"
+  }, {
+    "name" : "package",
+    "value" : "Checkout automation: Checkout page btns tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f9b1af892e9fec8e.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

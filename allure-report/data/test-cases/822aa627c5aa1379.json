@@ -1,0 +1,66 @@
+{
+  "uid" : "822aa627c5aa1379",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation: Login with locked_out_user and valid password.\"before all\" hook",
+  "historyId" : "40bf42f508cdaecd39fdf1f7f7bfc493",
+  "time" : {
+    "start" : 1621610392585,
+    "stop" : 1621610392718,
+    "duration" : 133
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with locked_out_user and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with locked_out_user and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with locked_out_user and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b8ff77e45d7267f1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621610303275,
+        "stop" : 1621610303392,
+        "duration" : 117
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "822aa627c5aa1379.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

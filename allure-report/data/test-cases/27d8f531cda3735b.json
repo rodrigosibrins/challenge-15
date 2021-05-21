@@ -1,0 +1,56 @@
+{
+  "uid" : "27d8f531cda3735b",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation: Login with wrong inputs values.\"before all\" hook",
+  "historyId" : "dad9c6806f23fc08824ff149e293f61e",
+  "time" : {
+    "start" : 1621610298611,
+    "stop" : 1621610298707,
+    "duration" : 96
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with wrong inputs values"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with wrong inputs values"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with wrong inputs values"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "27d8f531cda3735b.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

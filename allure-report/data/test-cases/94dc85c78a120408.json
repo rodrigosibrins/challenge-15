@@ -1,0 +1,58 @@
+{
+  "uid" : "94dc85c78a120408",
+  "name" : "summary is displayed",
+  "fullName" : "Overview automation: Overview display correct info.summary is displayed",
+  "historyId" : "64d1c4fc36bc60fa89239f18740c4b90",
+  "time" : {
+    "start" : 1621610519860,
+    "stop" : 1621610520068,
+    "duration" : 208
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-4"
+  }, {
+    "name" : "suite",
+    "value" : "Overview automation: Overview display correct info"
+  }, {
+    "name" : "testClass",
+    "value" : "Overview automation: Overview display correct info"
+  }, {
+    "name" : "testMethod",
+    "value" : "summary is displayed"
+  }, {
+    "name" : "package",
+    "value" : "Overview automation: Overview display correct info"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "94dc85c78a120408.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

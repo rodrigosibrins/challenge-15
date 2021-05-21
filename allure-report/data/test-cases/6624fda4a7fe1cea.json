@@ -1,0 +1,66 @@
+{
+  "uid" : "6624fda4a7fe1cea",
+  "name" : "All items link navigates to inventory page",
+  "fullName" : "Products automation: Hamburger menu tests.All items link navigates to inventory page",
+  "historyId" : "386975fb73a68796c1e433272439250b",
+  "time" : {
+    "start" : 1621610408210,
+    "stop" : 1621610412875,
+    "duration" : 4665
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-1"
+  }, {
+    "name" : "suite",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testClass",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "testMethod",
+    "value" : "All items link navigates to inventory page"
+  }, {
+    "name" : "package",
+    "value" : "Products automation: Hamburger menu tests"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "9e008d388c919cfc",
+      "status" : "passed",
+      "time" : {
+        "start" : 1621610319925,
+        "stop" : 1621610324479,
+        "duration" : 4554
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "6624fda4a7fe1cea.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

@@ -1,0 +1,56 @@
+{
+  "uid" : "a65847db60225048",
+  "name" : "\"before all\" hook",
+  "fullName" : "Login automation: Login with empty inputs values.\"before all\" hook",
+  "historyId" : "d96250c5029d41261c3fc92d8e081008",
+  "time" : {
+    "start" : 1621610295883,
+    "stop" : 1621610296060,
+    "duration" : 177
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with empty inputs values"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with empty inputs values"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with empty inputs values"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a65847db60225048.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

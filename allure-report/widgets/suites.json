@@ -1,0 +1,114 @@
+{
+  "total" : 30,
+  "items" : [ {
+    "uid" : "53752b40b8a7ab21d0a873f353955ce1",
+    "name" : "Login automation",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
+    }
+  }, {
+    "uid" : "6934ef2f44435fc7bcf4b7c719bcab98",
+    "name" : "Products automation: Products description page",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 6,
+      "unknown" : 0,
+      "total" : 6
+    }
+  }, {
+    "uid" : "c4e2682d506eb8855912cc8a745be126",
+    "name" : "Products automation: Hamburger menu tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "7ed9fe50cdec65ba58d1e6475ec2b34b",
+    "name" : "Products automation: Sort products tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "8cfb4b47794d137d2f61ed4d01ec79e6",
+    "name" : "Products automation: Footer tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 4,
+      "unknown" : 0,
+      "total" : 4
+    }
+  }, {
+    "uid" : "ef7dd51aa3e4d7ccf4ec36b6f1d8ab0f",
+    "name" : "Login automation: Login with valid username and invalid password",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "4e5b274d21a6d18455ab8150499a291a",
+    "name" : "Login automation: Login with problem_user and valid password",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "69330cf59783e36e0d367a8f6af3c7d2",
+    "name" : "Products automation: Cart badge tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "1f520e512cacf930ff97fa82bd86a317",
+    "name" : "Cart automation: Cart btns functionality",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  }, {
+    "uid" : "48b0f44c6310bb28bb4c500894e7f644",
+    "name" : "Checkout automation: Checkout form tests",
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 3,
+      "unknown" : 0,
+      "total" : 3
+    }
+  } ]
+}

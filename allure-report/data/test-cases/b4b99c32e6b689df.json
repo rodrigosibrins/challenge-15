@@ -1,0 +1,58 @@
+{
+  "uid" : "b4b99c32e6b689df",
+  "name" : "remove from cart",
+  "fullName" : "Cart automation: Cart btns functionality.remove from cart",
+  "historyId" : "7a59258ab12fd2c3bb79701e190707e2",
+  "time" : {
+    "start" : 1621610485555,
+    "stop" : 1621610485786,
+    "duration" : 231
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "testClass",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "testMethod",
+    "value" : "remove from cart"
+  }, {
+    "name" : "package",
+    "value" : "Cart automation: Cart btns functionality"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "b4b99c32e6b689df.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}

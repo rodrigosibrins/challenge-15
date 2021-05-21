@@ -1,0 +1,56 @@
+{
+  "uid" : "ab87e32b099426fe",
+  "name" : "if login with problem_user show the correct product image",
+  "fullName" : "Login automation: Login with problem_user and valid password.if login with problem_user show the correct product image",
+  "historyId" : "908e08e528387e045be6f3798522d5eb",
+  "time" : {
+    "start" : 1621610306767,
+    "stop" : 1621610306813,
+    "duration" : 46
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Login automation: Login with problem_user and valid password"
+  }, {
+    "name" : "testClass",
+    "value" : "Login automation: Login with problem_user and valid password"
+  }, {
+    "name" : "testMethod",
+    "value" : "if login with problem_user show the correct product image"
+  }, {
+    "name" : "package",
+    "value" : "Login automation: Login with problem_user and valid password"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-90.0.4430.212"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "ab87e32b099426fe.json",
+  "parameterValues" : [ "chrome-90.0.4430.212" ]
+}
