@@ -1,0 +1,73 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621865040425' stop='1621865049903'>
+    <name>Products automation: Sort products tests</name>
+    <title>Products automation: Sort products tests</title>
+    <test-cases>
+        <test-case start='1621865040425' status='failed' stop='1621865042909'>
+            <name>if sort value is Z to A display proper layout </name>
+            <title>if sort value is Z to A display proper layout </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: ProductsPage.productTitle is not a function</message>
+                <stack-trace>TypeError: ProductsPage.productTitle is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\products-automation.js:70:29)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1621865042909' status='passed' stop='1621865045261'>
+            <name>if sort value is low to high display proper layout </name>
+            <title>if sort value is low to high display proper layout </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621865045261' status='passed' stop='1621865047565'>
+            <name>if sort value is high to low display proper layout </name>
+            <title>if sort value is high to low display proper layout </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621865047566' status='failed' stop='1621865049902'>
+            <name>if sort value is A to Z display proper layout </name>
+            <title>if sort value is A to Z display proper layout </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>TypeError: ProductsPage.productTitle is not a function</message>
+                <stack-trace>TypeError: ProductsPage.productTitle is not a function
+                    at UserContext.&lt;anonymous> (C:\Users\Rodrigo\challenge-15\test\specs\products-automation.js:86:29)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

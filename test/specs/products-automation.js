@@ -67,6 +67,7 @@ describe("Products automation", () =>{
         ProductsPage.sortValue(1);
         browser.pause(2000);
         expect(ProductsPage.firstproductTitle).toHaveText('Test.allTheThings() T-Shirt (Red)');
+        expect(ProductsPage.getProductsName()).toEqual(ProductsPage.getProductsName().sort().reverse());
       });
       it("if sort value is low to high display proper layout ", () => {
         ProductsPage.sortValue(2);
@@ -82,6 +83,7 @@ describe("Products automation", () =>{
         ProductsPage.sortValue(0);
         browser.pause(2000);
         expect(ProductsPage.firstproductTitle).toHaveText('Sauce Labs Backpack');
+        expect(ProductsPage.getProductsName()).toEqual(ProductsPage.getProductsName().reverse().sort());
       });
     });
     describe("Products description page", () => {

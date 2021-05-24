@@ -9,6 +9,7 @@ class ProductsPage {
     get cartBadge () { return $('.shopping_cart_badge') }
     get productSort () { return $('.product_sort_container') }
     get firstproductTitle () { return $('.inventory_item_label').$$('.inventory_item_name') }
+    get productsName () { return $$('.inventory_item_name')  }
     get productImg () { return $('.inventory_item_img')}
     get productDesc () { return $('.inventory_details_desc')}
     get productPrice () { return $('.inventory_details_price')}
@@ -30,6 +31,14 @@ class ProductsPage {
         this.productSort.click();
         this.productSort.$$('option')[`${value}`].click();
     }
+    getProductsName() {
+        let productsArray = [];
+        for (let i = 0; i < 6; i++) {
+            let element = this.productsName[i].getText();
+            productsArray.push(element);
+        }
+        return productsArray;
+    } 
     addToCart (){
         this.backpackAddBtn.click();
     }

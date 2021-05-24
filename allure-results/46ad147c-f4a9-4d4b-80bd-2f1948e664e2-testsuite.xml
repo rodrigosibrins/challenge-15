@@ -1,0 +1,49 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1621865186753' stop='1621865193437'>
+    <name>Products automation: Cart badge tests</name>
+    <title>Products automation: Cart badge tests</title>
+    <test-cases>
+        <test-case start='1621865186753' status='passed' stop='1621865189032'>
+            <name>if add to cart btn is clicked cart badge should be displayed</name>
+            <title>if add to cart btn is clicked cart badge should be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621865189044' status='passed' stop='1621865191226'>
+            <name>Adding more than 1 product, cart badge display correct number</name>
+            <title>Adding more than 1 product, cart badge display correct number</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1621865191226' status='passed' stop='1621865193437'>
+            <name>if remove btn is clicked cart badge should not be displayed</name>
+            <title>if remove btn is clicked cart badge should not be displayed</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-90.0.4430.212'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
